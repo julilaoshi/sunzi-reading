@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sunzi Reading"
+  short_description: "把复杂论文讲成短、准、有人味的解释：像长辈给小孙子讲论文"
+  default_prompt: "Use $sunzi-reading to explain this paper in short, accurate, beginner-friendly Chinese. Keep light talk-show rhythm, gentle elder-to-grandchild support, and clear boundaries around what the paper proves or does not prove."
