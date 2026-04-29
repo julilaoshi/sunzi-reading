@@ -52,6 +52,21 @@ Use this skill when the user asks to:
 7. List 2-3 likely beginner misreadings.
 8. End with three short takeaways.
 
+## Language Adaptation
+
+Match the user's language by default.
+
+- If the user asks in Chinese, output Chinese.
+- If the user asks in English, output English.
+- If the paper is English but the user asks in Chinese, explain in Chinese.
+- If the paper is Chinese but the user asks in English, explain in English.
+- If the user explicitly requests a language, follow that request.
+- Keep section headings in the output language.
+
+Do not mechanically translate the paper sentence by sentence.
+
+Explain it naturally in the user's language.
+
 ## Input Triage
 
 Before explaining, quickly identify what the user provided:
@@ -114,6 +129,28 @@ Always use this structure:
 【最容易误读】
 
 【只记三句】
+```
+
+For English output, use the same structure translated naturally:
+
+```text
+【One-Sentence Version】
+
+【Don't Be Scared By The Title】
+
+【What Problem It Tries To Solve】
+
+【What The Authors Did】
+
+【A Simple Analogy】
+
+【What They Found】
+
+【Don't Misread It】
+
+【Most Common Misreadings】
+
+【Only Remember These Three Things】
 ```
 
 ## Style Rules
