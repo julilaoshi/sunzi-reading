@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="./prompts/sunzi_reading_prompt.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
+  <a href="./prompts/sunzi_reading_prompt_en.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#two-ways-to-use-it"><img alt="Start Here" src="https://img.shields.io/badge/Start-Here-111111?style=for-the-badge" /></a>
@@ -22,7 +22,8 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Start Here
 
-- [Copy the prompt](./prompts/sunzi_reading_prompt.md)
+- [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
+- [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
 - [Read the public skill file](./skill/SKILL.md)
 - [Star the repository](https://github.com/julilaoshi/sunzi-reading)
 
@@ -32,7 +33,7 @@ This is not an npm package.
 
 ### 1. Beginner mode: copy the prompt
 
-- [`prompts/sunzi_reading_prompt.md`](./prompts/sunzi_reading_prompt.md)
+- [`prompts/sunzi_reading_prompt_en.md`](./prompts/sunzi_reading_prompt_en.md)
 
 Paste it into ChatGPT, Claude, DeepSeek, Doubao, or another model that can read your paper text, abstract, screenshots, or PDF content.
 
@@ -74,6 +75,7 @@ agents/
   openai.yaml
 prompts/
   sunzi_reading_prompt.md
+  sunzi_reading_prompt_en.md
 skill/
   SKILL.md
 examples/
@@ -108,7 +110,8 @@ It gives you the method, not my entire private workflow.
 
 ## Structure
 
-- `prompts/sunzi_reading_prompt.md` - copyable prompt
+- `prompts/sunzi_reading_prompt_en.md` - copyable English prompt
+- `prompts/sunzi_reading_prompt.md` - copyable Chinese prompt
 - `skill/SKILL.md` - public Skill file
 - `agents/openai.yaml` - skill UI metadata
 - `examples/` - public-safe examples

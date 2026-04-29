@@ -5,6 +5,7 @@
 - [x] README exists.
 - [x] Chinese README exists.
 - [x] Prompt file exists.
+- [x] English prompt file exists.
 - [x] Public Skill exists at `skill/SKILL.md`.
 - [x] Skill UI metadata exists at `agents/openai.yaml`.
 - [x] Example exists.

@@ -76,6 +76,7 @@ agents/
   openai.yaml
 prompts/
   sunzi_reading_prompt.md
+  sunzi_reading_prompt_en.md
 skill/
   SKILL.md
 examples/
@@ -111,6 +112,7 @@ examples/
 ## 仓库结构
 
 - `prompts/sunzi_reading_prompt.md`：可复制提示词
+- `prompts/sunzi_reading_prompt_en.md`：英文版可复制提示词
 - `skill/SKILL.md`：公开版 Skill 文件
 - `agents/openai.yaml`：Skill 展示元数据
 - `examples/`：公开安全示例
