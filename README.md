@@ -1,74 +1,75 @@
-# Sunzi Reading / 孙子读论文
+# 孙子读论文 / Sunzi Reading
 
 <p align="center">
-  <strong>Papers are not always hard because the ideas are hard.</strong><br />
-  Sometimes they are hard because they refuse to speak human.
+  <strong>论文不一定是你读不懂。</strong><br />
+  有时候是它明明能说人话，但它偏不。
 </p>
 
 <p align="center">
-  <a href="./prompts/sunzi_reading_prompt_en.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
-  <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
-  <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
-  <a href="#two-ways-to-use-it"><img alt="Start Here" src="https://img.shields.io/badge/Start-Here-111111?style=for-the-badge" /></a>
+  <a href="./prompts/sunzi_reading_prompt.md"><img alt="复制提示词" src="https://img.shields.io/badge/复制-提示词-d14836?style=for-the-badge" /></a>
+  <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="#两种用法"><img alt="从这里开始" src="https://img.shields.io/badge/从这里-开始-111111?style=for-the-badge" /></a>
 </p>
 
 <p align="center">
-  Public <code>v1.0</code> now. The stronger versions shown in my own workflow may use more examples, upstream research judgment, and other linked skills.
+  当前公开的是 <code>v1.0</code>。我自己工作流里更强的版本，可能还会用到更多样张、上游研究判断和其他联动 Skill。
 </p>
 
-English | [简体中文](./README.zh-CN.md)
+简体中文 | [English](./README.en.md)
 
-**Sunzi Reading** is a copyable prompt and public-safe skill that turns dense academic papers into short, accurate, gently funny explanations for beginners: like a patient elder explaining a paper to a beloved grandchild.
+**孙子读论文** 是一个可复制 Prompt 和 public 版 Skill：把复杂论文讲成短、准、有人味的解释，像一个有学问、有耐心、还会哄人的长辈，在给小孙子讲论文。
 
-## Start Here
+## 快速开始
 
-- [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
-- [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
-- [Read the public skill file](./skill/SKILL.md)
-- [Star the repository](https://github.com/julilaoshi/sunzi-reading)
+- [复制提示词](./prompts/sunzi_reading_prompt.md)
+- [阅读公开版 Skill 文件](./skill/SKILL.md)
+- [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
 
-## Two Ways To Use It
+## 两种用法
 
-This is not an npm package.
+这不是 npm 包，不需要安装。
 
-### 1. Beginner mode: copy the prompt
+### 1. 初级用法：直接复制提示词
 
-- [`prompts/sunzi_reading_prompt_en.md`](./prompts/sunzi_reading_prompt_en.md)
+- [`prompts/sunzi_reading_prompt.md`](./prompts/sunzi_reading_prompt.md)
 
-Paste it into ChatGPT, Claude, DeepSeek, Doubao, or another model that can read your paper text, abstract, screenshots, or PDF content.
+把它粘贴到 ChatGPT、Claude、DeepSeek、豆包，或者任何能读论文内容的模型里。
 
-Then send a paper and ask it to explain.
+然后发论文摘要、论文截图、PDF 内容或学术段落，让它解释。
 
-This is the fastest way to try Sunzi Reading.
+这是最快的用法，复制就能试。
 
-### 2. Stable mode: use the Skill
+### 2. 稳定用法：使用这个 Skill
 
 - [`skill/SKILL.md`](./skill/SKILL.md)
 
-Use the Skill when you want Sunzi Reading to behave like a repeatable workflow, not just a one-time prompt.
+如果你只是偶尔读一篇论文，用提示词就够了。
 
-The Skill is better than the prompt when you need:
+如果你希望它每次都稳定地按同一个方法读论文，就用 Skill。
 
-- the same output structure every time
-- clearer boundaries around what the paper proves and does not prove
-- fewer long, drifting answers
-- safer public examples without copyrighted full-text papers
-- a reusable method that a coding agent can apply across files, READMEs, examples, and release checks
+Skill 比单独提示词更好的地方是：
 
-The prompt is for quick use.
+- 输出结构更稳定，不容易跑成普通论文摘要。
+- 会固定检查“作者证明了什么 / 没证明什么”。
+- 会固定提醒哪里容易误读。
+- 更适合反复处理多篇论文、多个示例和 GitHub 发布材料。
+- 更容易约束公开边界，不把论文全文、私有材料或不该公开的内容带出去。
 
-The Skill is for repeatable work.
+提示词适合立刻用。
 
-## What It Does
+Skill 适合长期复用。
 
-- Explains a paper in plain language.
-- Keeps the answer short and accurate.
-- Translates scary terms into human words.
-- Adds light talk-show rhythm without turning the paper into a joke.
-- Gives emotional support: "don't panic, this paper is written weirdly."
-- Marks what the paper proves, what it does not prove, and where beginners may misread it.
+## 它能帮你做什么
 
-## Included
+- 把论文讲成人话。
+- 保持短、准，不写成长篇综述。
+- 把吓人的术语拆开。
+- 加一点脱口秀节奏，但不为了搞笑乱说。
+- 加一点“乖，别怕”的情绪价值，但不油腻。
+- 标出作者证明了什么、没证明什么、哪里最容易误读。
+
+## 仓库包含什么
 
 ```text
 agents/
@@ -82,93 +83,96 @@ examples/
   microplastics_tetracycline_demo.md
 ```
 
-## Not Included
+## 仓库不包含什么
 
-- No paper downloader.
-- No PDF parser.
-- No private datasets.
-- No copyrighted full-text papers.
-- No promise that the model is always correct.
+- 不包含论文下载器。
+- 不包含 PDF 解析器。
+- 不包含私有数据集。
+- 不包含受版权保护的论文全文。
+- 不保证模型永远正确。
 
-Use it as a reading assistant, not as a substitute for checking the paper.
+它是阅读辅助，不是替代你核对论文。
 
-## Why The Social Media Version May Look Stronger
+## 为什么我自媒体里的版本可能更强
 
-This public repository focuses on the reusable prompt and public Skill.
+这个 public 仓主要公开的是可复制提示词和公开版 Skill。
 
-In my own workflow, the stronger version may also use:
+我自己工作流里更强的版本，可能还会用到：
 
-- more paper-reading context
-- more examples and prompt tests
-- upstream research judgment
-- video writing and publishing skills
-- more internal notes and intermediate assets
+- 更多论文阅读上下文
+- 更多样张和 Prompt 测试
+- 上游研究判断
+- 视频写作和发布 Skill
+- 更多内部笔记和中间资产
 
-So the public version is real, but it is intentionally light.
+所以公开版是真的，但它是轻量版。
 
-It gives you the method, not my entire private workflow.
+它给你方法，不等于把我的整套私有工作流都打包出来。
 
-## Structure
+## 仓库结构
 
-- `prompts/sunzi_reading_prompt_en.md` - copyable English prompt
-- `prompts/sunzi_reading_prompt.md` - copyable Chinese prompt
-- `skill/SKILL.md` - public Skill file
-- `agents/openai.yaml` - skill UI metadata
-- `examples/` - public-safe examples
-- `GITHUB_ABOUT_SUGGESTION.md` - suggested GitHub About text and topics
-- `PUBLIC_RELEASE_CHECKLIST.md` - pre-publish checklist
+- `prompts/sunzi_reading_prompt.md`：可复制提示词
+- `prompts/sunzi_reading_prompt_en.md`：英文版可复制提示词
+- `skill/SKILL.md`：公开版 Skill 文件
+- `agents/openai.yaml`：Skill 展示元数据
+- `examples/`：公开安全示例
+- `GITHUB_ABOUT_SUGGESTION.md`：GitHub About 和 topics 建议
+- `PUBLIC_RELEASE_CHECKLIST.md`：推送前检查表
 
-## Language Strategy
+## 语言策略
 
-- English README is optimized for GitHub visitors.
-- Chinese README keeps fuller context and platform information.
-- The project name keeps the Chinese joke, because that is the strongest signal.
+- 英文 README 更适合给 GitHub 公共访客快速理解。
+- 中文 README 保留更完整的语境和平台信息。
+- 项目名保留中文梗，因为这是最强识别点。
 
-## License And Brand Boundary
+## 许可与品牌边界
 
-The reusable prompt, docs, and framework are released under the MIT License.
+可复用提示词、文档和框架按 MIT License 发布。
 
-Brand-facing identity and endorsement implications are not automatically transferred with that license. See [`BRAND_NOTICE.md`](./BRAND_NOTICE.md).
+但作者身份、品牌呈现和背书关系不会随 MIT License 自动转让，详见 [`BRAND_NOTICE.md`](./BRAND_NOTICE.md)。
 
-## Internal vs Public Boundary
+## 内部版与公开版边界
 
-The public version keeps:
+公开版保留：
 
-- method
-- prompt
-- public Skill
-- reusable explanation structure
-- public-safe demo
+- 方法
+- 提示词
+- 公开版 Skill
+- 可复用解释结构
+- 公开安全样例
 
-The public version does not keep:
+公开版不保留：
 
-- private paper libraries
-- private workflow traces
-- full copyrighted papers
-- internal prompt chains
-- social media production drafts
+- 私有论文库
+- 私有工作流痕迹
+- 受版权保护的论文全文
+- 内部提示词链
+- 自媒体生产草稿
 
-## License
+## 许可
 
-Code and public text are released under the MIT License.
+公开文本与代码按 MIT License 发布。
 
-The project name, creator identity, and brand presentation are covered by [`BRAND_NOTICE.md`](./BRAND_NOTICE.md).
+项目名称、作者身份和品牌展示边界见 [`BRAND_NOTICE.md`](./BRAND_NOTICE.md)。
 
-## Find Juli
+## 找到居里老师
 
 <p align="center">
-  <a href="https://github.com/julilaoshi"><img alt="Follow Juli on GitHub" src="https://img.shields.io/badge/Follow%20Juli-on%20GitHub-111111?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Sunzi Reading" src="https://img.shields.io/badge/Star-Sunzi%20Reading-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="https://github.com/julilaoshi"><img alt="关注 GitHub" src="https://img.shields.io/badge/关注-GitHub-111111?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
 </p>
 
-| Platform | Identity |
+| 平台 | 账号 / 入口 |
 | --- | --- |
-| X / Twitter | [@julilaoshi](https://x.com/julilaoshi?s=21) |
-| Instagram | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
+| 推特 / X | [@julilaoshi](https://x.com/julilaoshi?s=21) |
+| Instagram / INS | [@julilaoshi](https://www.instagram.com/julilaoshi?igsh=d2lhZmhoMzNlOTlk&utm_source=qr) |
 | YouTube | [@julilaoshi](https://www.youtube.com/@julilaoshi) |
+| B站 | [居里老师](https://space.bilibili.com/522623529) |
 | Red Book | [居里老师](https://xhslink.com/m/ArTQH4nAado) |
+| 公众号 | `居里生成` |
+| 视频号 | `居里老师` |
 
-## Release Helpers
+## 发布辅助文件
 
 - [`GITHUB_ABOUT_SUGGESTION.md`](./GITHUB_ABOUT_SUGGESTION.md)
 - [`PUBLIC_RELEASE_CHECKLIST.md`](./PUBLIC_RELEASE_CHECKLIST.md)
