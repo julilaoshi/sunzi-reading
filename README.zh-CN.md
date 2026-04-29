@@ -1,10 +1,30 @@
 # 孙子读论文 / Sunzi Reading
 
-论文不一定是你读不懂。
+<p align="center">
+  <strong>论文不一定是你读不懂。</strong><br />
+  有时候是它明明能说人话，但它偏不。
+</p>
 
-有时候是它明明能说人话，但它偏不。
+<p align="center">
+  <a href="./prompts/sunzi_reading_prompt.md"><img alt="复制提示词" src="https://img.shields.io/badge/复制-提示词-d14836?style=for-the-badge" /></a>
+  <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="#两种用法"><img alt="从这里开始" src="https://img.shields.io/badge/从这里-开始-111111?style=for-the-badge" /></a>
+</p>
+
+<p align="center">
+  当前公开的是 <code>v1.0</code>。我自己工作流里更强的版本，可能还会用到更多样张、上游研究判断和其他联动 Skill。
+</p>
+
+[English](./README.md) | 简体中文
 
 **孙子读论文** 是一个可复制 Prompt 和 public 版 Skill：把复杂论文讲成短、准、有人味的解释，像一个有学问、有耐心、还会哄人的长辈，在给小孙子讲论文。
+
+## 快速开始
+
+- [复制提示词](./prompts/sunzi_reading_prompt.md)
+- [阅读公开版 Skill 文件](./skill/SKILL.md)
+- [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
 
 ## 两种用法
 

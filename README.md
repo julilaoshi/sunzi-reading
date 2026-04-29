@@ -1,10 +1,30 @@
-# Sunzi Reading
+# Sunzi Reading / 孙子读论文
 
-Papers are not always hard because the ideas are hard.
+<p align="center">
+  <strong>Papers are not always hard because the ideas are hard.</strong><br />
+  Sometimes they are hard because they refuse to speak human.
+</p>
 
-Sometimes they are hard because they refuse to speak human.
+<p align="center">
+  <a href="./prompts/sunzi_reading_prompt.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
+  <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
+  <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
+  <a href="#two-ways-to-use-it"><img alt="Start Here" src="https://img.shields.io/badge/Start-Here-111111?style=for-the-badge" /></a>
+</p>
 
-**Sunzi Reading** is a copyable prompt and public-safe skill that turns dense academic papers into short, accurate, gently funny explanations for a beginner: like a patient elder explaining a paper to a beloved grandchild.
+<p align="center">
+  Public <code>v1.0</code> now. The stronger versions shown in my own workflow may use more examples, upstream research judgment, and other linked skills.
+</p>
+
+English | [简体中文](./README.zh-CN.md)
+
+**Sunzi Reading** is a copyable prompt and public-safe skill that turns dense academic papers into short, accurate, gently funny explanations for beginners: like a patient elder explaining a paper to a beloved grandchild.
+
+## Start Here
+
+- [Copy the prompt](./prompts/sunzi_reading_prompt.md)
+- [Read the public skill file](./skill/SKILL.md)
+- [Star the repository](https://github.com/julilaoshi/sunzi-reading)
 
 ## Two Ways To Use It
 
