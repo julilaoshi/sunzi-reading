@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="./prompts/sunzi_reading_prompt.md"><img alt="复制提示词" src="https://img.shields.io/badge/复制-提示词-d14836?style=for-the-badge" /></a>
+  <a href="#安装-skill给-codex-新手"><img alt="安装 Skill" src="https://img.shields.io/badge/安装-Skill-2ea44f?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#两种用法"><img alt="从这里开始" src="https://img.shields.io/badge/从这里-开始-111111?style=for-the-badge" /></a>
@@ -23,12 +24,40 @@
 ## 快速开始
 
 - [复制提示词](./prompts/sunzi_reading_prompt.md)
+- [安装到 Codex](#安装-skill给-codex-新手)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
 
+## 安装 Skill（给 Codex 新手）
+
+如果你只是想在 ChatGPT、豆包、Claude、DeepSeek 里试一下，直接复制提示词就行，不需要安装。
+
+如果你用的是 Codex，最简单的安装方式是：打开 Codex，新建一个对话，把下面这段整段复制进去，然后按回车。
+
+```text
+请帮我从 GitHub 安装这个 Codex Skill：
+https://github.com/julilaoshi/sunzi-reading/tree/main/skill
+
+安装完成后告诉我结果，并提醒我是否需要重启 Codex。
+```
+
+安装后，重启 Codex。下次你说“用孙子读论文解释这篇论文”，它就会按这个 Skill 的规则工作。
+
+如果你熟悉终端，也可以手动安装：
+
+```bash
+mkdir -p "$HOME/.codex/skills"
+test ! -e "$HOME/.codex/skills/sunzi-reading" || { echo "sunzi-reading 已存在，先不要覆盖"; exit 1; }
+tmpdir="$(mktemp -d)"
+git clone --depth 1 https://github.com/julilaoshi/sunzi-reading.git "$tmpdir/sunzi-reading"
+cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
+```
+
+看不懂终端命令没关系，宝宝别怕。优先用上面那段“复制给 Codex 的话”，让 Codex 自己装。
+
 ## 两种用法
 
-这不是 npm 包，不需要安装。
+这不是 npm 包，不需要 `npm install`。你可以直接复制提示词，也可以把 Skill 安装到 Codex。
 
 ### 1. 初级用法：直接复制提示词
 

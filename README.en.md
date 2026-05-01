@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="./prompts/sunzi_reading_prompt_en.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
+  <a href="#install-the-skill"><img alt="Install Skill" src="https://img.shields.io/badge/Install-Skill-2ea44f?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#two-ways-to-use-it"><img alt="Start Here" src="https://img.shields.io/badge/Start-Here-111111?style=for-the-badge" /></a>
@@ -24,12 +25,38 @@
 
 - [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
 - [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
+- [Install into Codex](#install-the-skill)
 - [Read the public skill file](./skill/SKILL.md)
 - [Star the repository](https://github.com/julilaoshi/sunzi-reading)
 
+## Install The Skill
+
+If you only want to try this in ChatGPT, Claude, DeepSeek, or Doubao, copy the prompt. No installation is needed.
+
+If you use Codex, open a new Codex chat, paste the text below, and press Enter:
+
+```text
+Please install this Codex Skill from GitHub:
+https://github.com/julilaoshi/sunzi-reading/tree/main/skill
+
+After installing it, tell me whether I need to restart Codex.
+```
+
+Restart Codex after installation. Then ask Codex to use Sunzi Reading on a paper.
+
+If you prefer manual terminal installation:
+
+```bash
+mkdir -p "$HOME/.codex/skills"
+test ! -e "$HOME/.codex/skills/sunzi-reading" || { echo "sunzi-reading already exists; not overwriting"; exit 1; }
+tmpdir="$(mktemp -d)"
+git clone --depth 1 https://github.com/julilaoshi/sunzi-reading.git "$tmpdir/sunzi-reading"
+cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
+```
+
 ## Two Ways To Use It
 
-This is not an npm package.
+This is not an npm package. You do not need `npm install`. You can either copy the prompt or install the Skill into Codex.
 
 ### 1. Beginner mode: copy the prompt
 
