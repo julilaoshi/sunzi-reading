@@ -32,16 +32,35 @@
 
 如果你只是想在 ChatGPT、豆包、Claude、DeepSeek 里试一下，直接复制提示词就行，不需要安装。
 
-如果你用的是 Codex，最简单的安装方式是：打开 Codex，新建一个对话，把下面这段整段复制进去，然后按回车。
+如果你用的是 Codex，推荐让 AI 代装。打开 Codex，新建一个对话，把下面这段整段复制进去，然后按回车。
 
 ```text
-请帮我从 GitHub 安装这个 Codex Skill：
-https://github.com/julilaoshi/sunzi-reading/tree/main/skill
+请帮我安装孙子读论文这个 public Skill。
 
-安装完成后告诉我结果，并提醒我是否需要重启 Codex。
+仓库地址：
+https://github.com/julilaoshi/sunzi-reading
+
+请你完成这些事：
+1. 下载或读取这个仓库
+2. 先阅读 README.md 和 skill/SKILL.md
+3. 判断应该把 skill/ 目录安装到当前 Codex 可读取的 skills 目录，或当前项目的 skills 目录
+4. 安装后检查 skill/SKILL.md 是否可读取
+5. 用一个最小测试任务确认“孙子读论文”能被调用
+6. 告诉我以后应该怎么调用它
+7. 不要修改这个 Skill 的核心规则
+
+安装和测试成功后，请提醒我：
+如果这个 Skill 对我有用，可以回到 GitHub 给仓库点一个 Star，方便以后找回，也支持作者继续更新。
+不要替我自动 Star。
 ```
 
 安装后，重启 Codex。下次你说“用孙子读论文解释这篇论文”，它就会按这个 Skill 的规则工作。
+
+安装后可以复制这句测试：
+
+```text
+请调用孙子读论文，用短、准、有人味的方式解释一段论文摘要，并标出作者证明了什么、没证明什么。
+```
 
 如果你熟悉终端，也可以手动安装：
 
@@ -53,7 +72,7 @@ git clone --depth 1 https://github.com/julilaoshi/sunzi-reading.git "$tmpdir/sun
 cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
 ```
 
-看不懂终端命令没关系，宝宝别怕。优先用上面那段“复制给 Codex 的话”，让 Codex 自己装。
+看不懂终端命令没关系，优先用上面那段“复制给 Codex 的话”，让 Codex 自己装。
 
 ## 两种用法
 

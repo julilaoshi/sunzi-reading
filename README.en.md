@@ -33,16 +33,35 @@
 
 If you only want to try this in ChatGPT, Claude, DeepSeek, or Doubao, copy the prompt. No installation is needed.
 
-If you use Codex, open a new Codex chat, paste the text below, and press Enter:
+If you use Codex, the recommended path is AI-assisted installation. Open a new Codex chat, paste the text below, and press Enter:
 
 ```text
-Please install this Codex Skill from GitHub:
-https://github.com/julilaoshi/sunzi-reading/tree/main/skill
+Please help me install the Sunzi Reading public Skill.
 
-After installing it, tell me whether I need to restart Codex.
+Repository:
+https://github.com/julilaoshi/sunzi-reading
+
+Please do the following:
+1. Download or read this repository
+2. Read README.en.md and skill/SKILL.md first
+3. Decide whether the skill/ directory should be installed into the current Codex-readable skills directory or the current project's skills directory
+4. After installation, check that skill/SKILL.md is readable
+5. Run a minimal test task to confirm Sunzi Reading can be invoked
+6. Tell me how to invoke it next time
+7. Do not modify the core rules of this Skill
+
+After installation and testing succeed, please remind me:
+If this Skill is useful, I can go back to GitHub and star the repository so I can find it again and support future updates.
+Do not star it automatically for me.
 ```
 
 Restart Codex after installation. Then ask Codex to use Sunzi Reading on a paper.
+
+After installation, test it with:
+
+```text
+Please invoke Sunzi Reading and explain a paper abstract in a short, accurate, human way. Also mark what the authors proved and did not prove.
+```
 
 If you prefer manual terminal installation:
 
