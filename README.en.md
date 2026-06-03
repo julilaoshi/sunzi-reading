@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="./prompts/sunzi_reading_prompt_en.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
-  <a href="#install-the-skill"><img alt="Install Skill" src="https://img.shields.io/badge/Install-Skill-2ea44f?style=for-the-badge" /></a>
+  <a href="#load-the-skill"><img alt="Load Skill" src="https://img.shields.io/badge/Load-Skill-2ea44f?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#two-ways-to-use-it"><img alt="Start Here" src="https://img.shields.io/badge/Start-Here-111111?style=for-the-badge" /></a>
@@ -25,39 +25,39 @@
 
 - [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
 - [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
-- [Install into Codex](#install-the-skill)
+- [Load into Codex](#load-the-skill)
 - [Read the public skill file](./skill/SKILL.md)
 - [Star the repository](https://github.com/julilaoshi/sunzi-reading)
 
-## Install The Skill
+## Load The Skill
 
 If you only want to try this in ChatGPT, Claude, DeepSeek, or Doubao, copy the prompt. No installation is needed.
 
-If you use Codex, the recommended path is AI-assisted installation. Open a new Codex chat, paste the text below, and press Enter:
+If you use Codex, the recommended path is AI-assisted Skill loading. Open a new Codex chat, paste the text below, and press Enter:
 
 ```text
-Please help me install the Sunzi Reading public Skill.
+Please help me load the Sunzi Reading public Skill.
 
 Repository:
 https://github.com/julilaoshi/sunzi-reading
 
 Please do the following:
-1. Download or read this repository
-2. Read README.en.md and skill/SKILL.md first
-3. Decide whether the skill/ directory should be installed into the current Codex-readable skills directory or the current project's skills directory
-4. After installation, check that skill/SKILL.md is readable
-5. Run a minimal test task to confirm Sunzi Reading can be invoked
-6. Tell me how to invoke it next time
-7. Do not modify the core rules of this Skill
+1. Do not run npm install, pip install, build commands, or any long setup script. This repo has no package installer.
+2. Download or read this repository.
+3. Read README.en.md and skill/SKILL.md first.
+4. Make skill/SKILL.md available as a readable Skill in this project or in the current Codex-readable skills directory.
+5. Stop after confirming that skill/SKILL.md is readable and tell me how to invoke it next time.
+6. Do not run a test task yet unless I explicitly ask for it.
+7. Do not modify the core rules of this Skill.
 
-After installation and testing succeed, please remind me:
+After the Skill is readable, please remind me:
 If this Skill is useful, I can go back to GitHub and star the repository so I can find it again and support future updates.
 Do not star it automatically for me.
 ```
 
-Restart Codex after installation. Then ask Codex to use Sunzi Reading on a paper.
+Restart Codex after loading the Skill if your Codex setup requires a restart. Then ask Codex to use Sunzi Reading on a paper.
 
-After installation, test it with:
+After the Skill is loaded, test it separately with:
 
 ```text
 Please invoke Sunzi Reading and explain a paper abstract in a short, accurate, human way. Also mark what the authors proved and did not prove.

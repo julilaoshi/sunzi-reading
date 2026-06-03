@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="./prompts/sunzi_reading_prompt.md"><img alt="复制提示词" src="https://img.shields.io/badge/复制-提示词-d14836?style=for-the-badge" /></a>
-  <a href="#安装-skill给-codex-新手"><img alt="安装 Skill" src="https://img.shields.io/badge/安装-Skill-2ea44f?style=for-the-badge" /></a>
+  <a href="#载入-skill给-codex-新手"><img alt="载入 Skill" src="https://img.shields.io/badge/载入-Skill-2ea44f?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#两种用法"><img alt="从这里开始" src="https://img.shields.io/badge/从这里-开始-111111?style=for-the-badge" /></a>
@@ -24,39 +24,39 @@
 ## 快速开始
 
 - [复制提示词](./prompts/sunzi_reading_prompt.md)
-- [安装到 Codex](#安装-skill给-codex-新手)
+- [载入到 Codex](#载入-skill给-codex-新手)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
 
-## 安装 Skill（给 Codex 新手）
+## 载入 Skill（给 Codex 新手）
 
 如果你只是想在 ChatGPT、豆包、Claude、DeepSeek 里试一下，直接复制提示词就行，不需要安装。
 
-如果你用的是 Codex，推荐让 AI 代装。打开 Codex，新建一个对话，把下面这段整段复制进去，然后按回车。
+如果你用的是 Codex，推荐让 AI 先载入 Skill。打开 Codex，新建一个对话，把下面这段整段复制进去，然后按回车。
 
 ```text
-请帮我安装孙子读论文这个 public Skill。
+请帮我载入孙子读论文这个 public Skill。
 
 仓库地址：
 https://github.com/julilaoshi/sunzi-reading
 
 请你完成这些事：
-1. 下载或读取这个仓库
-2. 先阅读 README.md 和 skill/SKILL.md
-3. 判断应该把 skill/ 目录安装到当前 Codex 可读取的 skills 目录，或当前项目的 skills 目录
-4. 安装后检查 skill/SKILL.md 是否可读取
-5. 用一个最小测试任务确认“孙子读论文”能被调用
-6. 告诉我以后应该怎么调用它
-7. 不要修改这个 Skill 的核心规则
+1. 不要运行 npm install、pip install、build 命令，也不要跑任何长安装脚本。这个仓库没有包安装器。
+2. 下载或读取这个仓库。
+3. 先阅读 README.md 和 skill/SKILL.md。
+4. 把 skill/SKILL.md 作为当前项目或当前 Codex 可读取的 Skill。
+5. 确认 skill/SKILL.md 可读取后就停下来，并告诉我以后怎么调用它。
+6. 除非我明确要求，否则不要立刻做测试任务。
+7. 不要修改这个 Skill 的核心规则。
 
-安装和测试成功后，请提醒我：
+Skill 可读取后，请提醒我：
 如果这个 Skill 对我有用，可以回到 GitHub 给仓库点一个 Star，方便以后找回，也支持作者继续更新。
 不要替我自动 Star。
 ```
 
-安装后，重启 Codex。下次你说“用孙子读论文解释这篇论文”，它就会按这个 Skill 的规则工作。
+如果 Codex 需要重启，载入后再重启。下次你说“用孙子读论文解释这篇论文”，它就会按这个 Skill 的规则工作。
 
-安装后可以复制这句测试：
+Skill 载入后，可以单独复制这句测试：
 
 ```text
 请调用孙子读论文，用短、准、有人味的方式解释一段论文摘要，并标出作者证明了什么、没证明什么。
@@ -72,11 +72,11 @@ git clone --depth 1 https://github.com/julilaoshi/sunzi-reading.git "$tmpdir/sun
 cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
 ```
 
-看不懂终端命令没关系，优先用上面那段“复制给 Codex 的话”，让 Codex 自己装。
+看不懂终端命令没关系，优先用上面那段“复制给 Codex 的话”，让 Codex 先载入 Skill。
 
 ## 两种用法
 
-这不是 npm 包，不需要 `npm install`。你可以直接复制提示词，也可以把 Skill 安装到 Codex。
+这不是 npm 包，不需要 `npm install`。你可以直接复制提示词，也可以把 Skill 载入到 Codex。
 
 ### 1. 初级用法：直接复制提示词
 
