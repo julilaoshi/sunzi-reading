@@ -26,11 +26,11 @@
 
 - [x] First screen has a hook.
 - [x] Quick start says this is not an npm package.
-- [x] First screen includes an Install Skill CTA.
-- [x] Chinese and English READMEs include Codex Skill installation instructions.
-- [x] Installation instructions include a copy-into-Codex text block.
-- [x] Manual terminal fallback avoids overwriting an existing skill directory.
-- [x] Installation instructions remind users to restart Codex.
+- [x] First screen includes a Load Skill CTA.
+- [x] Chinese and English READMEs include Codex Skill loading instructions.
+- [x] Loading instructions include a copy-into-Codex text block.
+- [x] Manual clone fallback avoids overwriting an existing skill directory.
+- [x] Loading instructions only remind users to restart Codex when needed.
 - [x] Usage is copyable.
 - [x] Boundaries are clear.
 - [x] Creator CTA and platform table are included.

@@ -19,15 +19,6 @@
 
 简体中文 | [English](./README.en.md)
 
-**孙子读论文** 是一个可复制 Prompt 和 public 版 Skill：把复杂论文讲成短、准、有人味的解释，像一个有学问、有耐心、还会哄人的长辈，在给小孙子讲论文。
-
-## 快速开始
-
-- [复制提示词](./prompts/sunzi_reading_prompt.md)
-- [载入到 Codex](#载入-skill给-codex-新手)
-- [阅读公开版 Skill 文件](./skill/SKILL.md)
-- [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
-
 ## 载入 Skill（给 Codex 新手）
 
 如果你只是想在 ChatGPT、豆包、Claude、DeepSeek 里试一下，直接复制提示词就行，不需要安装。
@@ -73,6 +64,15 @@ cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
 ```
 
 看不懂终端命令没关系，优先用上面那段“复制给 Codex 的话”，让 Codex 先载入 Skill。
+
+**孙子读论文** 是一个可复制 Prompt 和 public 版 Skill：把复杂论文讲成短、准、有人味的解释，像一个有学问、有耐心、还会哄人的长辈，在给小孙子讲论文。
+
+## 快速开始
+
+- [复制提示词](./prompts/sunzi_reading_prompt.md)
+- [载入到 Codex](#载入-skill给-codex-新手)
+- [阅读公开版 Skill 文件](./skill/SKILL.md)
+- [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
 
 ## 两种用法
 
@@ -202,6 +202,15 @@ examples/
 公开文本与代码按 MIT License 发布。
 
 项目名称、作者身份和品牌展示边界见 [`BRAND_NOTICE.md`](./BRAND_NOTICE.md)。
+
+## 相关 Skill
+
+- [Takeaway Skill](https://github.com/julilaoshi/takeaway-skill) - 蒸馏参考，拿机制。
+- [Open Pencil](https://github.com/julilaoshi/open-pencil) - 让 agent 执行 Pencil。
+- [FlowMotion Skill](https://github.com/julilaoshi/flowmotion-skill) - 把乱想法变流程图。
+- [Pickupskill](https://github.com/julilaoshi/pickupskill) - 谨慎整理散落文件。
+- [孙子读论文](https://github.com/julilaoshi/sunzi-reading) - 把论文讲成人话。
+- [Callback Skill](https://github.com/julilaoshi/callback-skill) - 把反馈做成升级包。
 
 ## 找到居里老师
 

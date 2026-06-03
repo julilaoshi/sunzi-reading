@@ -19,16 +19,6 @@
 
 [简体中文](./README.md) | English
 
-**Sunzi Reading** is a copyable prompt and public-safe skill that turns dense academic papers into short, accurate, gently funny explanations for beginners: like a patient elder explaining a paper to a beloved grandchild.
-
-## Start Here
-
-- [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
-- [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
-- [Load into Codex](#load-the-skill)
-- [Read the public skill file](./skill/SKILL.md)
-- [Star the repository](https://github.com/julilaoshi/sunzi-reading)
-
 ## Load The Skill
 
 If you only want to try this in ChatGPT, Claude, DeepSeek, or Doubao, copy the prompt. No installation is needed.
@@ -72,6 +62,16 @@ tmpdir="$(mktemp -d)"
 git clone --depth 1 https://github.com/julilaoshi/sunzi-reading.git "$tmpdir/sunzi-reading"
 cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
 ```
+
+**Sunzi Reading** is a copyable prompt and public-safe skill that turns dense academic papers into short, accurate, gently funny explanations for beginners: like a patient elder explaining a paper to a beloved grandchild.
+
+## Start Here
+
+- [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
+- [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
+- [Load into Codex](#load-the-skill)
+- [Read the public skill file](./skill/SKILL.md)
+- [Star the repository](https://github.com/julilaoshi/sunzi-reading)
 
 ## Two Ways To Use It
 
@@ -199,6 +199,15 @@ The public version does not keep:
 Code and public text are released under the MIT License.
 
 The project name, creator identity, and brand presentation are covered by [`BRAND_NOTICE.md`](./BRAND_NOTICE.md).
+
+## Related Skills
+
+- [Takeaway Skill](https://github.com/julilaoshi/takeaway-skill) - distill references into reusable mechanisms.
+- [Open Pencil](https://github.com/julilaoshi/open-pencil) - run Pencil workflows with agents.
+- [FlowMotion Skill](https://github.com/julilaoshi/flowmotion-skill) - turn messy notes into motion flows.
+- [Pickupskill](https://github.com/julilaoshi/pickupskill) - organize messy folders safely.
+- [Sunzi Reading](https://github.com/julilaoshi/sunzi-reading) - explain papers in plain language.
+- [Callback Skill](https://github.com/julilaoshi/callback-skill) - package feedback for Skill upgrades.
 
 ## Find Juli
 
