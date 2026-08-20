@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="./prompts/sunzi_reading_prompt.md"><img alt="复制提示词" src="https://img.shields.io/badge/复制-提示词-d14836?style=for-the-badge" /></a>
-  <a href="#载入-skill给-codex-新手"><img alt="载入 Skill" src="https://img.shields.io/badge/载入-Skill-2ea44f?style=for-the-badge" /></a>
+  <a href="#如何载入和使用"><img alt="载入 Skill" src="https://img.shields.io/badge/载入-Skill-2ea44f?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="阅读 Skill" src="https://img.shields.io/badge/阅读-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="给仓库点星" src="https://img.shields.io/badge/给仓库-点星-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#两种用法"><img alt="从这里开始" src="https://img.shields.io/badge/从这里-开始-111111?style=for-the-badge" /></a>
@@ -19,7 +19,16 @@
 
 简体中文 | [English](./README.en.md)
 
-## 载入 Skill（给 Codex 新手）
+## 这个仓库为什么存在
+
+- 把论文讲成人话。
+- 保持短、准，不写成长篇综述。
+- 把吓人的术语拆开。
+- 加一点脱口秀节奏，但不为了搞笑乱说。
+- 加一点“乖，别怕”的情绪价值，但不油腻。
+- 标出作者证明了什么、没证明什么、哪里最容易误读。
+
+## 如何载入和使用
 
 如果你只是想在 ChatGPT、豆包、Claude、DeepSeek 里试一下，直接复制提示词就行，不需要安装。
 
@@ -70,7 +79,7 @@ cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
 ## 快速开始
 
 - [复制提示词](./prompts/sunzi_reading_prompt.md)
-- [载入到 Codex](#载入-skill给-codex-新手)
+- [载入到 Codex](#如何载入和使用)
 - [阅读公开版 Skill 文件](./skill/SKILL.md)
 - [给仓库点星](https://github.com/julilaoshi/sunzi-reading)
 
@@ -107,15 +116,6 @@ Skill 比单独提示词更好的地方是：
 提示词适合立刻用。
 
 Skill 适合长期复用。
-
-## 它能帮你做什么
-
-- 把论文讲成人话。
-- 保持短、准，不写成长篇综述。
-- 把吓人的术语拆开。
-- 加一点脱口秀节奏，但不为了搞笑乱说。
-- 加一点“乖，别怕”的情绪价值，但不油腻。
-- 标出作者证明了什么、没证明什么、哪里最容易误读。
 
 ## 仓库包含什么
 

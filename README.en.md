@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="./prompts/sunzi_reading_prompt_en.md"><img alt="Copy Prompt" src="https://img.shields.io/badge/Copy-Prompt-d14836?style=for-the-badge" /></a>
-  <a href="#load-the-skill"><img alt="Load Skill" src="https://img.shields.io/badge/Load-Skill-2ea44f?style=for-the-badge" /></a>
+  <a href="#how-to-load-and-use"><img alt="Load Skill" src="https://img.shields.io/badge/Load-Skill-2ea44f?style=for-the-badge" /></a>
   <a href="./skill/SKILL.md"><img alt="Read Skill" src="https://img.shields.io/badge/Read-Skill-1f6feb?style=for-the-badge" /></a>
   <a href="https://github.com/julilaoshi/sunzi-reading"><img alt="Star Repo" src="https://img.shields.io/badge/Star-Repo-f6c343?style=for-the-badge&logo=github&logoColor=111111" /></a>
   <a href="#two-ways-to-use-it"><img alt="Start Here" src="https://img.shields.io/badge/Start-Here-111111?style=for-the-badge" /></a>
@@ -19,7 +19,16 @@
 
 [简体中文](./README.md) | English
 
-## Load The Skill
+## Why This Repository Exists
+
+- Explains a paper in plain language.
+- Keeps the answer short and accurate.
+- Translates scary terms into human words.
+- Adds light talk-show rhythm without turning the paper into a joke.
+- Gives emotional support: "don't panic, this paper is written weirdly."
+- Marks what the paper proves, what it does not prove, and where beginners may misread it.
+
+## How to Load and Use
 
 If you only want to try this in ChatGPT, Claude, DeepSeek, or Doubao, copy the prompt. No installation is needed.
 
@@ -69,7 +78,7 @@ cp -R "$tmpdir/sunzi-reading/skill" "$HOME/.codex/skills/sunzi-reading"
 
 - [Copy the English prompt](./prompts/sunzi_reading_prompt_en.md)
 - [Copy the Chinese prompt](./prompts/sunzi_reading_prompt.md)
-- [Load into Codex](#load-the-skill)
+- [Load into Codex](#how-to-load-and-use)
 - [Read the public skill file](./skill/SKILL.md)
 - [Star the repository](https://github.com/julilaoshi/sunzi-reading)
 
@@ -104,15 +113,6 @@ The Skill is better than the prompt when you need:
 The prompt is for quick use.
 
 The Skill is for repeatable work.
-
-## What It Does
-
-- Explains a paper in plain language.
-- Keeps the answer short and accurate.
-- Translates scary terms into human words.
-- Adds light talk-show rhythm without turning the paper into a joke.
-- Gives emotional support: "don't panic, this paper is written weirdly."
-- Marks what the paper proves, what it does not prove, and where beginners may misread it.
 
 ## Included
 
