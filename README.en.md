@@ -19,14 +19,19 @@
 
 [简体中文](./README.md) | English
 
+## What Can This Skill Help You Do?
+
+- Explain dense abstracts and paragraphs in language a beginner can follow.
+- Identify the research question, method, conclusion, and useful evidence.
+- State what the authors proved and what they did not prove.
+- Unpack intimidating terms without losing necessary academic accuracy.
+- Make the first reading shorter, calmer, and more human.
+
 ## Why This Repository Exists
 
-- Explains a paper in plain language.
-- Keeps the answer short and accurate.
-- Translates scary terms into human words.
-- Adds light talk-show rhythm without turning the paper into a joke.
-- Gives emotional support: "don't panic, this paper is written weirdly."
-- Marks what the paper proves, what it does not prove, and where beginners may misread it.
+Many readers are not blocked by the research itself. They are blocked by dense language and unexplained terminology.
+
+This repository shares a short, accurate, human way to reveal the paper's main argument before the reader decides how deeply to continue.
 
 ## How to Load and Use
 
